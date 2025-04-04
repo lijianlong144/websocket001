@@ -31,6 +31,13 @@
     </properties>
     <dependencies>
         <dependency>
+            <groupId>com.k2fsa</groupId>
+            <artifactId>sherpa-onnx</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/static/lib/sherpa-onnx-v1.11.2-java17.jar</systemPath>
+        </dependency>
+        <dependency>
             <groupId>com.microsoft.onnxruntime</groupId>
             <artifactId>onnxruntime</artifactId>
             <version>1.15.0</version><!-- 请检查最新版本 -->
